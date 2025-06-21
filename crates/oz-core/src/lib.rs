@@ -2,6 +2,7 @@
 extern crate alloc;
 
 pub mod data;
+pub mod ast;
 
 /// Adds two numbers together
 pub fn add(a: i32, b: i32) -> i32 {
